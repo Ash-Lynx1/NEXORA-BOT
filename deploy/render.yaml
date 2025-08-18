@@ -1,0 +1,38 @@
+services:
+  - type: web
+    name: NEXORA-BOT
+    env: node
+    plan: free
+    repo: https://github.com/Ash-Lynx1/NEXORA-BOT.git
+    branch: main
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: BOT_TOKEN
+        fromSecret: BOT_TOKEN
+      - key: OWNER_ID
+        fromSecret: OWNER_ID
+      - key: OWNER_USERNAME
+        fromSecret: OWNER_USERNAME
+      - key: BOT_USERNAME
+        fromSecret: BOT_USERNAME
+      - key: TELEGRAM_CHANNEL
+        fromSecret: TELEGRAM_CHANNEL
+      - key: WHATSAPP_CHANNEL_LINK
+        fromSecret: WHATSAPP_CHANNEL_LINK
+      - key: CHATGPT_API
+        fromSecret: CHATGPT_API
+      - key: DEEPSEEK_API
+        fromSecret: DEEPSEEK_API
+      - key: QWEN_API
+        fromSecret: QWEN_API
+      - key: APK_API
+        fromSecret: APK_API
+      - key: PLAY_API
+        fromSecret: PLAY_API
+      - key: GITCLONE_API
+        fromSecret: GITCLONE_API
+      - key: YTMP4_API
+        fromSecret: YTMP4_API
+      - key: PREFIX
+        value: "/"
