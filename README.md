@@ -38,7 +38,7 @@ pkg install git -y
 ```
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=19&duration=600&pause=800&color=FEE75C&width=600&center=true&lines=Step+2%3A+Clone+the+Repository" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=19&duration=600&pause=800&color=FEE75C&width=600&center=true&lines=Step+2%3A+Clone+the+Repository" alt="NEXORA BOT" />
 </div>
 
 ```bash
